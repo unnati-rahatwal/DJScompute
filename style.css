@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
-/* === General Styles === */
+
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +78,7 @@ nav ul li a:hover {
     transition: all 0.3s ease;
   }
 
-/* === Sections === */
+/* Sections */
 section {
   margin:0;  
   padding: 60px 15%;
@@ -97,7 +97,7 @@ section p {
   color: #ccc;
 }
 
-/* === About Section === */
+/* About Section */
 .about-container {
   margin-top: 20px;
   display: flex;
@@ -132,7 +132,7 @@ section p {
   line-height: 1.6;
 }
 
-/* === Team Section === */
+/*  Team Section  */
 .team-container {
   margin-top: 20px;
   display: flex;
@@ -173,7 +173,7 @@ section p {
   color: #bb86fc;
 }
 
-/* === Contact Section === */
+/*  Contact Section */
 form {
   margin-top: 20px;
   max-width: 500px;
@@ -214,7 +214,7 @@ form button:hover {
   background: #9b59b6;
 }
 
-/* === Footer === */
+/*  Footer  */
 footer {
   text-align: center;
   padding: 20px;
@@ -222,7 +222,7 @@ footer {
   margin-top: 40px;
 }
 
-/* === Responsive === */
+/* Responsive */
 @media (max-width: 768px) {
   section {
     padding: 50px 10%;
