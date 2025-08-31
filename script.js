@@ -1,4 +1,4 @@
-// Smooth scrolling for navigation
+
 document.querySelectorAll("nav ul li a").forEach(link => {
   link.addEventListener("click", function(e) {
     e.preventDefault(); // prevent default jump
@@ -10,7 +10,7 @@ document.querySelectorAll("nav ul li a").forEach(link => {
   });
 });
 
-// Form validation (already present)
+
 document.getElementById("contactForm").addEventListener("submit", function(e) {
   e.preventDefault();
   const name = document.getElementById("name").value.trim();
